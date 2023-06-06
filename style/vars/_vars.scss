@@ -1,3 +1,109 @@
+/* font "Merriweather", normal, 400 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"),
+    /* IE6-IE8 */
+      url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    /* Safari, Android, iOS */
+      url(../../fonts/Merriweather-Regular/Merriweather-Regular.otf)
+      format("otf"),
+    /* Legacy iOS */
+      url(../../fonts/Merriweather-Regular/Merriweather-Regular.svg#Merriweather-Regular)
+      format("svg"),
+    /* Safari, Android, iOS */
+      url(../../fonts/Merriweather-Regular/Merriweather-Regular.ttf)
+      format("truetype"),
+    /* Modern Browsers */
+      url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff)
+      format("woff"),
+    /* Modern Browsers */
+      url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff2)
+      format("woff2");
+  font-weight: normal; // Same as "font-weight: 400"
+  font-style: normal;
+}
+
+/* font "Merriweather", bold, 700 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"),
+    /* IE6-IE8 */
+      url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    /* Safari, Android, iOS */
+      url(../../fonts/Merriweather-Bold/Merriweather-Bold.otf) format("otf"),
+    /* Legacy iOS */
+      url(../../fonts/Merriweather-Bold/Merriweather-Bold.svg#Merriweather-Bold)
+      format("svg"),
+    /* Safari, Android, iOS */
+      url(../../fonts/Merriweather-Bold/Merriweather-Bold.ttf)
+      format("truetype"),
+    /* Modern Browsers */
+      url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff) format("woff"),
+    /* Modern Browsers */
+      url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff2) format("woff2");
+  font-weight: bold; // Same as "font-weight: 700"
+  font-style: normal;
+}
+
+/* font "Inter", normal, 400 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"),
+    /* IE6-IE8 */ url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    /* Safari, Android, iOS */ url(../../fonts/Inter-Regular/Inter-Regular.otf)
+      format("otf"),
+    /* Legacy iOS */
+      url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular)
+      format("svg"),
+    /* Safari, Android, iOS */ url(../../fonts/Inter-Regular/Inter-Regular.ttf)
+      format("truetype"),
+    /* Modern Browsers */ url(../../fonts/Inter-Regular/Inter-Regular.woff)
+      format("woff"),
+    /* Modern Browsers */ url(../../fonts/Inter-Regular/Inter-Regular.woff2)
+      format("woff2");
+  font-weight: normal; // Same as "font-weight: 400"
+  font-style: normal;
+}
+
+/* font "Inter", bold, 700 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Bold/Inter-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"),
+    /* IE6-IE8 */ url(../../fonts/Inter-Bold/Inter-Bold.eot?#iefix)
+      format("embedded-opentype"),
+    /* Safari, Android, iOS */ url(../../fonts/Inter-Bold/Inter-Bold.otf)
+      format("otf"),
+    /* Legacy iOS */ url(../../fonts/Inter-Bold/Inter-Bold.svg#Inter-Bold)
+      format("svg"),
+    /* Safari, Android, iOS */ url(../../fonts/Inter-Bold/Inter-Bold.ttf)
+      format("truetype"),
+    /* Modern Browsers */ url(../../fonts/Inter-Bold/Inter-Bold.woff)
+      format("woff"),
+    /* Modern Browsers */ url(../../fonts/Inter-Bold/Inter-Bold.woff2)
+      format("woff2");
+  font-weight: bold; // Same as "font-weight: 700"
+  font-style: normal;
+}
+
+// Fonts
+$font-h: "Merriweather";
+$font-p: "Inter";
+
 // Default checkpoints for adaptive
 $pc-l: 1920px;
 $pc-m: 1400px;
