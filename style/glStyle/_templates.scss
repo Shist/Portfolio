@@ -1,0 +1,61 @@
+@import "./vars";
+
+// Global container of whole page
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+// Default settings of container for content (margin-bottom is possible)
+%default-container {
+  max-width: 1400px;
+  width: 100%;
+  margin-top: 0;
+  margin-inline: auto;
+}
+
+// Default settings of headlines; $f-s - size; $l-h - line height; $c - color
+@mixin default-h($f-s, $l-h, $c) {
+  font-family: $font-merriweather;
+  font-weight: bold;
+  font-size: $f-s;
+  line-height: $l-h;
+  color: $c;
+}
+
+// Default settings of paragraphs; $f-s - size; $l-h - line height
+@mixin default-p($f-s, $l-h) {
+  font-family: $font-inter;
+  font-size: $f-s;
+  line-height: $l-h;
+  text-align: center;
+  color: $white-color;
+}
+
+// Default settings of links
+@mixin default-a {
+  font-family: $font-inter;
+  font-size: 20px;
+  line-height: 50px;
+  color: $white-color;
+}
+
+// Default settings of buttons; $t-c - text color; $bg-c - background color
+@mixin default-btn($t-c, $bg-c) {
+  max-width: 220px;
+  width: 100%;
+  padding: 8px 40px 7px;
+  font-family: $font-inter;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: $t-c;
+  background-color: $bg-c;
+  border: 2px solid $gold-color;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    color: $white-color;
+  }
+}

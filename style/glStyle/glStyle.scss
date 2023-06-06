@@ -1,4 +1,12 @@
-@import "../vars/vars";
+@import "./vars";
+@import "./templates";
 @import "../header/header";
 @import "../main/main";
 @import "../footer/footer";
+
+// Global container of whole page
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}

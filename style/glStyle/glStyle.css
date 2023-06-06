@@ -78,6 +78,12 @@
   font-weight: bold;
   font-style: normal;
 }
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
@@ -157,4 +163,187 @@
   src: local("Inter"), url(../../fonts/Inter-Bold/Inter-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Bold/Inter-Bold.otf) format("otf"), url(../../fonts/Inter-Bold/Inter-Bold.svg#Inter-Bold) format("svg"), url(../../fonts/Inter-Bold/Inter-Bold.ttf) format("truetype"), url(../../fonts/Inter-Bold/Inter-Bold.woff) format("woff"), url(../../fonts/Inter-Bold/Inter-Bold.woff2) format("woff2");
   font-weight: bold;
   font-style: normal;
+}
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* font "Merriweather", normal, 400 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.otf) format("otf"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.svg#Merriweather-Regular) format("svg"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.ttf) format("truetype"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff) format("woff"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Merriweather", bold, 700 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.otf) format("otf"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.svg#Merriweather-Bold) format("svg"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.ttf) format("truetype"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff) format("woff"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Inter", normal, 400 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Inter", bold, 700 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Bold/Inter-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Bold/Inter-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Bold/Inter-Bold.otf) format("otf"), url(../../fonts/Inter-Bold/Inter-Bold.svg#Inter-Bold) format("svg"), url(../../fonts/Inter-Bold/Inter-Bold.ttf) format("truetype"), url(../../fonts/Inter-Bold/Inter-Bold.woff) format("woff"), url(../../fonts/Inter-Bold/Inter-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Merriweather", normal, 400 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.otf) format("otf"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.svg#Merriweather-Regular) format("svg"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.ttf) format("truetype"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff) format("woff"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Merriweather", bold, 700 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.otf) format("otf"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.svg#Merriweather-Bold) format("svg"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.ttf) format("truetype"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff) format("woff"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Inter", normal, 400 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Inter", bold, 700 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Bold/Inter-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Bold/Inter-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Bold/Inter-Bold.otf) format("otf"), url(../../fonts/Inter-Bold/Inter-Bold.svg#Inter-Bold) format("svg"), url(../../fonts/Inter-Bold/Inter-Bold.ttf) format("truetype"), url(../../fonts/Inter-Bold/Inter-Bold.woff) format("woff"), url(../../fonts/Inter-Bold/Inter-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* font "Merriweather", normal, 400 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.otf) format("otf"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.svg#Merriweather-Regular) format("svg"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.ttf) format("truetype"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff) format("woff"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Merriweather", bold, 700 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.otf) format("otf"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.svg#Merriweather-Bold) format("svg"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.ttf) format("truetype"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff) format("woff"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Inter", normal, 400 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Inter", bold, 700 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Bold/Inter-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Bold/Inter-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Bold/Inter-Bold.otf) format("otf"), url(../../fonts/Inter-Bold/Inter-Bold.svg#Inter-Bold) format("svg"), url(../../fonts/Inter-Bold/Inter-Bold.ttf) format("truetype"), url(../../fonts/Inter-Bold/Inter-Bold.woff) format("woff"), url(../../fonts/Inter-Bold/Inter-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Merriweather", normal, 400 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.otf) format("otf"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.svg#Merriweather-Regular) format("svg"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.ttf) format("truetype"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff) format("woff"), url(../../fonts/Merriweather-Regular/Merriweather-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Merriweather", bold, 700 */
+@font-face {
+  font-family: "Merriweather";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Merriweather"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.otf) format("otf"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.svg#Merriweather-Bold) format("svg"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.ttf) format("truetype"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff) format("woff"), url(../../fonts/Merriweather-Bold/Merriweather-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+/* font "Inter", normal, 400 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Regular/Inter-Regular.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Regular/Inter-Regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Regular/Inter-Regular.otf) format("otf"), url(../../fonts/Inter-Regular/Inter-Regular.svg#Inter-Regular) format("svg"), url(../../fonts/Inter-Regular/Inter-Regular.ttf) format("truetype"), url(../../fonts/Inter-Regular/Inter-Regular.woff) format("woff"), url(../../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* font "Inter", bold, 700 */
+@font-face {
+  font-family: "Inter";
+  /* IE9 Compat Modes */
+  src: url(../../fonts/Inter-Bold/Inter-Bold.eot);
+  /* Trying to find out that font in system */
+  src: local("Inter"), url(../../fonts/Inter-Bold/Inter-Bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/Inter-Bold/Inter-Bold.otf) format("otf"), url(../../fonts/Inter-Bold/Inter-Bold.svg#Inter-Bold) format("svg"), url(../../fonts/Inter-Bold/Inter-Bold.ttf) format("truetype"), url(../../fonts/Inter-Bold/Inter-Bold.woff) format("woff"), url(../../fonts/Inter-Bold/Inter-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.global-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }/*# sourceMappingURL=glStyle.css.map */
