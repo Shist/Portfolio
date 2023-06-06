@@ -1,12 +1,5 @@
 @import "./vars";
 
-// Global container of whole page
-.global-container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 // Default settings of container for content (margin-bottom is possible)
 %default-container {
   max-width: 1400px;

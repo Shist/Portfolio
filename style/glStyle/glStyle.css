@@ -78,12 +78,6 @@
   font-weight: bold;
   font-style: normal;
 }
-.global-container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
@@ -164,12 +158,6 @@
   font-weight: bold;
   font-style: normal;
 }
-.global-container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
@@ -250,12 +238,6 @@
   font-weight: bold;
   font-style: normal;
 }
-.global-container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
@@ -336,12 +318,6 @@
   font-weight: bold;
   font-style: normal;
 }
-.global-container {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .global-container {
   max-width: 1440px;
   width: 100%;
