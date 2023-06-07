@@ -3,12 +3,23 @@
 
 .main {
   &__portfolio-cover-wrapper {
+    min-height: 910px;
+    padding-top: 250px;
+    padding-left: 80px;
+    background-image: url("../../img/main/woman-with-camera.png");
+    background-size: cover;
     .main__portfolio-info-wrapper {
+      max-width: 500px;
       .main__person-name-headline {
+        margin-bottom: 10px;
+        @include default-h(60px, 120px, $white-color);
       }
       .main__person-info-text {
+        margin-bottom: 25px;
+        @include default-p(20px, 40px);
       }
       .main__btn-hire-me {
+        @include default-btn($bg-dark-color, $gold-color);
       }
     }
   }

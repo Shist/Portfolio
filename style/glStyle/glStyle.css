@@ -238,6 +238,48 @@
   font-weight: bold;
   font-style: normal;
 }
+.main__portfolio-cover-wrapper {
+  min-height: 910px;
+  padding-top: 250px;
+  padding-left: 80px;
+  background-image: url("../../img/main/woman-with-camera.png");
+  background-size: cover;
+}
+.main__portfolio-cover-wrapper .main__portfolio-info-wrapper {
+  max-width: 500px;
+}
+.main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__person-name-headline {
+  margin-bottom: 10px;
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 120px;
+  color: white;
+}
+.main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__person-info-text {
+  margin-bottom: 25px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+}
+.main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__btn-hire-me {
+  max-width: 220px;
+  width: 100%;
+  padding: 8px 40px 7px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+  background-color: #bdae82;
+  border: 2px solid #bdae82;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__btn-hire-me:hover {
+  color: white;
+}
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
