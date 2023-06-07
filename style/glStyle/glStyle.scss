@@ -80,18 +80,37 @@ body {
 }
 
 .socials {
+  padding-block: 9px;
   &__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
     .socials__list-item {
-      .social-link {
-        &__instagram {
-        }
-        &__facebook {
-        }
-        &__twitter {
-        }
-        &__pinterest {
-        }
+      width: 32px;
+      height: 32px;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.2);
       }
     }
+  }
+}
+
+.social-link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  transition: 0.3s;
+  &__instagram {
+    background-image: url(../../img/footer/icon-instagram.svg);
+  }
+  &__facebook {
+    background-image: url(../../img/footer/icon-facebook.svg);
+  }
+  &__twitter {
+    background-image: url(../../img/footer/icon-twitter.svg);
+  }
+  &__pinterest {
+    background-image: url(../../img/footer/icon-pinterest.svg);
   }
 }

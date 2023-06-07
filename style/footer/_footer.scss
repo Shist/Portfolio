@@ -2,16 +2,27 @@
 @import "../glStyle/templates";
 
 .footer {
+  padding-block: 50px;
   &__container {
+    @extend %default-container;
+    display: flex;
+    justify-content: space-between;
     .footer__copyrights-wrapper {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 20px;
       .footer__copyright-sign {
+        @include default-p(20px, 50px);
       }
       .footer__copyright-year {
+        @include default-p(20px, 50px);
       }
       .footer__github-link {
+        @include default-a;
       }
     }
     .footer__portfolio-sign {
+      @include default-p(20px, 50px);
     }
   }
 }
