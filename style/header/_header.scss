@@ -2,24 +2,43 @@
 @import "../glStyle/templates";
 
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   &__container {
-    .header__logo {
-    }
+    padding-block: 20px;
+    @extend %default-container;
+    display: flex;
+    justify-content: space-between;
     .header__nav-wrapper {
+      display: flex;
       .header__nav {
+        padding-inline: 30px;
         .header__nav-list {
+          display: flex;
+          column-gap: 30px;
           .header__nav-list-item {
             .header__link {
+              @include default-a;
             }
           }
         }
       }
       .header__lang-wrapper {
+        display: flex;
+        column-gap: 9px;
         .header__en-sign {
+          @extend %default-language-sign;
+          color: $gold-color;
         }
         .header__slash-sign {
+          @extend %default-language-sign;
+          color: $white-color;
         }
         .header__ru-sign {
+          @extend %default-language-sign;
+          color: $white-color;
         }
       }
     }

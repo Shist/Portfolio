@@ -8,6 +8,14 @@
   margin-inline: auto;
 }
 
+// Default settings for language signatures
+%default-language-sign {
+  font-family: $font-inter;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+}
+
 // Default settings of headlines; $f-s - size; $l-h - line height; $c - color
 @mixin default-h($f-s, $l-h, $c) {
   font-family: $font-merriweather;
@@ -31,6 +39,11 @@
   font-size: 20px;
   line-height: 50px;
   color: $white-color;
+  text-decoration: none;
+  transition: 0.3s;
+  &:hover {
+    color: $gold-color;
+  }
 }
 
 // Default settings of buttons; $t-c - text color; $bg-c - background color
