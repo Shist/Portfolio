@@ -2,4 +2,16 @@
 @import "../glStyle/templates";
 
 .footer {
+  &__container {
+    .footer__copyrights-wrapper {
+      .footer__copyright-sign {
+      }
+      .footer__copyright-year {
+      }
+      .footer__github-link {
+      }
+    }
+    .footer__portfolio-sign {
+    }
+  }
 }

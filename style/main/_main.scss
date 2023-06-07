@@ -2,4 +2,72 @@
 @import "../glStyle/templates";
 
 .main {
+  &__portfolio-cover-wrapper {
+    .main__portfolio-info-wrapper {
+      .main__person-name-headline {
+      }
+      .main__person-info-text {
+      }
+      .main__btn-hire-me {
+      }
+    }
+  }
+  &__skills-wrapper {
+    .main__skills-headline-wrapper {
+      .main__skills-headline-line {
+      }
+      .main__skills-headline-text {
+      }
+    }
+    .main__skills-cards-wrapper {
+    }
+  }
+  &__portfolio-content-wrapper {
+    .main__portfolio-headline-wrapper {
+      .main__portfolio-headline-line {
+      }
+      .main__portfolio-headline-text {
+      }
+    }
+    .main__portfolio-images-wrapper {
+    }
+  }
+  &__video-section-wrapper {
+    .main__video-section-headline-wrapper {
+      .main__video-section-headline-line {
+      }
+      .main__video-section-headline-text {
+      }
+    }
+    .main__video-content-wrapper {
+      .main__video-click-btn {
+      }
+      .main__video {
+      }
+    }
+  }
+  &__price-wrapper {
+    .main__price-headline-wrapper {
+      .main__price-headline-line {
+      }
+      .main__price-headline-text {
+      }
+    }
+    .main__price-cards-wrapper {
+    }
+  }
+  &__contact-form-wrapper {
+    .main__contact-form {
+    }
+    .main__contact-form-headline {
+    }
+    .main__contact-form-email {
+    }
+    .main__contact-form-phone {
+    }
+    .main__contact-form-msg {
+    }
+    .main__contact-form-submit-btn {
+    }
+  }
 }

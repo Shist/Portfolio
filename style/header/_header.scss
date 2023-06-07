@@ -2,4 +2,26 @@
 @import "../glStyle/templates";
 
 .header {
+  &__container {
+    .header__logo {
+    }
+    .header__nav-wrapper {
+      .header__nav {
+        .header__nav-list {
+          .header__nav-list-item {
+            .header__link {
+            }
+          }
+        }
+      }
+      .header__lang-wrapper {
+        .header__en-sign {
+        }
+        .header__slash-sign {
+        }
+        .header__ru-sign {
+        }
+      }
+    }
+  }
 }

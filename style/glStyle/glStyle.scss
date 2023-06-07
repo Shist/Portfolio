@@ -10,3 +10,45 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.skill-card {
+  &__img {
+  }
+  &__headline {
+  }
+  &__text {
+  }
+}
+
+.portfolio-img {
+}
+
+.price-card {
+  &__haedline {
+  }
+  &__price {
+  }
+  &__description-wrapper {
+    .price-card__feature-description {
+    }
+  }
+  &__btn {
+  }
+}
+
+.socials {
+  &__list {
+    .socials__list-item {
+      .social-link {
+        &__instagram {
+        }
+        &__facebook {
+        }
+        &__twitter {
+        }
+        &__pinterest {
+        }
+      }
+    }
+  }
+}
