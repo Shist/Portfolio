@@ -5,7 +5,7 @@
   &__portfolio-cover-wrapper {
     min-height: 910px;
     padding-top: 250px;
-    padding-left: 80px;
+    padding-left: 5.55%;
     margin-bottom: 100px;
     background-image: url("../../img/main/woman-with-camera.png");
     background-size: cover;
@@ -138,17 +138,38 @@
     }
   }
   &__contact-form-wrapper {
+    min-height: 700px;
+    padding-top: 60px;
+    padding-left: 67.36%;
+    background-image: url("../../img/main/woman-makes-photos.png");
+    background-size: cover;
     .main__contact-form {
-    }
-    .main__contact-form-headline {
-    }
-    .main__contact-form-email {
-    }
-    .main__contact-form-phone {
-    }
-    .main__contact-form-msg {
-    }
-    .main__contact-form-submit-btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      .main__contact-form-headline {
+        margin-bottom: 40px;
+        @include default-h(40px, 80px, $gold-color);
+      }
+      .main__contact-form-email {
+        min-height: 50px;
+        margin-bottom: 20px;
+        @extend %default-form-input;
+      }
+      .main__contact-form-phone {
+        min-height: 50px;
+        margin-bottom: 20px;
+        @extend %default-form-input;
+      }
+      .main__contact-form-msg {
+        min-height: 100px;
+        margin-bottom: 30px;
+        @extend %default-form-input;
+        resize: none;
+      }
+      .main__contact-form-submit-btn {
+        @include default-btn($bg-dark-color, $gold-color);
+      }
     }
   }
 }

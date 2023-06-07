@@ -51,22 +51,22 @@ body {
   flex-basis: 100%;
   max-width: 450px;
   max-height: 505px;
-  padding: 43px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border: 3px solid $gold-color;
   &__headline {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     @include default-h(28px, 56px, $white-color);
   }
   &__price {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     @include default-h(24px, 48px, $gold-color);
   }
   &__description-wrapper {
-    margin-bottom: 36px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;

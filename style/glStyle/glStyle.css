@@ -101,6 +101,30 @@
        column-gap: 20px;
 }
 
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone, .main__contact-form-wrapper .main__contact-form .main__contact-form-email {
+  max-width: 450px;
+  width: 100%;
+  padding: 3px 18px;
+  background-color: transparent;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+  border: 2px solid #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg::-moz-placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone::-moz-placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-email::-moz-placeholder {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg::placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone::placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-email::placeholder {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+}
+
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
@@ -202,6 +226,30 @@
   align-items: center;
   -moz-column-gap: 20px;
        column-gap: 20px;
+}
+
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone, .main__contact-form-wrapper .main__contact-form .main__contact-form-email {
+  max-width: 450px;
+  width: 100%;
+  padding: 3px 18px;
+  background-color: transparent;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+  border: 2px solid #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg::-moz-placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone::-moz-placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-email::-moz-placeholder {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg::placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone::placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-email::placeholder {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
 }
 
 .header {
@@ -355,10 +403,34 @@
        column-gap: 20px;
 }
 
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone, .main__contact-form-wrapper .main__contact-form .main__contact-form-email {
+  max-width: 450px;
+  width: 100%;
+  padding: 3px 18px;
+  background-color: transparent;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+  border: 2px solid #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg::-moz-placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone::-moz-placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-email::-moz-placeholder {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg::placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone::placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-email::placeholder {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+}
+
 .main__portfolio-cover-wrapper {
   min-height: 910px;
   padding-top: 250px;
-  padding-left: 80px;
+  padding-left: 5.55%;
   margin-bottom: 100px;
   background-image: url("../../img/main/woman-with-camera.png");
   background-size: cover;
@@ -544,6 +616,57 @@
   justify-content: space-evenly;
   gap: 25px;
 }
+.main__contact-form-wrapper {
+  min-height: 700px;
+  padding-top: 60px;
+  padding-left: 67.36%;
+  background-image: url("../../img/main/woman-makes-photos.png");
+  background-size: cover;
+}
+.main__contact-form-wrapper .main__contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-headline {
+  margin-bottom: 40px;
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-email {
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-phone {
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-msg {
+  min-height: 100px;
+  margin-bottom: 30px;
+  resize: none;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-submit-btn {
+  max-width: 220px;
+  width: 100%;
+  padding: 8px 37px 7px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+  background-color: #bdae82;
+  border: 2px solid #bdae82;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-submit-btn:hover {
+  color: white;
+}
+
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
@@ -647,6 +770,30 @@
        column-gap: 20px;
 }
 
+.main__contact-form-wrapper .main__contact-form .main__contact-form-email, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone, .main__contact-form-wrapper .main__contact-form .main__contact-form-msg {
+  max-width: 450px;
+  width: 100%;
+  padding: 3px 18px;
+  background-color: transparent;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+  border: 2px solid #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-email::-moz-placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone::-moz-placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-msg::-moz-placeholder {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+}
+.main__contact-form-wrapper .main__contact-form .main__contact-form-email::placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-phone::placeholder, .main__contact-form-wrapper .main__contact-form .main__contact-form-msg::placeholder {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  color: #bdae82;
+}
+
 body {
   background-color: black;
 }
@@ -698,7 +845,7 @@ body {
   flex-basis: 100%;
   max-width: 450px;
   max-height: 505px;
-  padding: 43px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -706,7 +853,7 @@ body {
   border: 3px solid #bdae82;
 }
 .price-card__headline {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   font-family: "Merriweather";
   font-weight: bold;
   font-size: 28px;
@@ -714,7 +861,7 @@ body {
   color: white;
 }
 .price-card__price {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   font-family: "Merriweather";
   font-weight: bold;
   font-size: 24px;
@@ -722,7 +869,7 @@ body {
   color: #bdae82;
 }
 .price-card__description-wrapper {
-  margin-bottom: 36px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
