@@ -4,19 +4,41 @@
 @import "../main/main";
 @import "../footer/footer";
 
+// Just to make sides of large screenes darker
+body {
+  background-color: $bg-dark-color;
+}
+
 // Global container of whole page
 .global-container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  background-color: $bg-dark-color;
 }
 
 .skill-card {
+  max-width: 320px;
+  max-height: 240px;
+  padding: 0 20px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   &__img {
+    width: 70px;
+    height: 50px;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
   }
   &__headline {
+    margin-bottom: 20px;
+    @include default-p(20px, 40px);
   }
   &__text {
+    @include default-p(18px, 36px);
+    text-align: center;
   }
 }
 
