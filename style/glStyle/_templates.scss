@@ -2,8 +2,9 @@
 
 // Default settings of container for content (margin-bottom is possible)
 %default-container {
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
+  padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
 }
@@ -65,7 +66,7 @@
 @mixin default-btn($t-c, $bg-c) {
   max-width: 220px;
   width: 100%;
-  padding: 8px 40px 7px;
+  padding: 8px 37px 7px;
   font-family: $font-inter;
   font-size: 20px;
   line-height: 40px;

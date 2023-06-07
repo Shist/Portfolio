@@ -78,9 +78,10 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
-  max-width: 1400px;
+.main__price-wrapper, .main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+  max-width: 1440px;
   width: 100%;
+  padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
 }
@@ -92,7 +93,7 @@
   line-height: 50px;
 }
 
-.main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+.main__price-wrapper .main__price-headline-wrapper, .main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,9 +181,10 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
-  max-width: 1400px;
+.main__price-wrapper, .main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+  max-width: 1440px;
   width: 100%;
+  padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
 }
@@ -194,7 +196,7 @@
   line-height: 50px;
 }
 
-.main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+.main__price-wrapper .main__price-headline-wrapper, .main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -330,9 +332,10 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
-  max-width: 1400px;
+.main__price-wrapper, .main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+  max-width: 1440px;
   width: 100%;
+  padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
 }
@@ -344,7 +347,7 @@
   line-height: 50px;
 }
 
-.main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+.main__price-wrapper .main__price-headline-wrapper, .main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,7 +385,7 @@
 .main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__btn-hire-me {
   max-width: 220px;
   width: 100%;
-  padding: 8px 40px 7px;
+  padding: 8px 37px 7px;
   font-family: "Inter";
   font-size: 20px;
   line-height: 40px;
@@ -451,7 +454,7 @@
 .main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper .main__portoflio-content-btn {
   max-width: 220px;
   width: 100%;
-  padding: 8px 40px 7px;
+  padding: 8px 37px 7px;
   font-family: "Inter";
   font-size: 20px;
   line-height: 40px;
@@ -517,6 +520,30 @@
   -o-object-fit: fill;
      object-fit: fill;
 }
+.main__price-wrapper {
+  margin-bottom: 100px;
+}
+.main__price-wrapper .main__price-headline-wrapper {
+  margin-bottom: 60px;
+}
+.main__price-wrapper .main__price-headline-wrapper .main__price-headline-line {
+  width: 279px;
+  height: 2px;
+  background-color: #bdae82;
+}
+.main__price-wrapper .main__price-headline-wrapper .main__price-headline-text {
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+}
+.main__price-wrapper .main__price-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 25px;
+}
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
@@ -597,9 +624,10 @@
   font-weight: bold;
   font-style: normal;
 }
-.header__container, .main__skills-wrapper, .main__portfolio-content-wrapper, .main__video-section-wrapper {
-  max-width: 1400px;
+.header__container, .main__skills-wrapper, .main__portfolio-content-wrapper, .main__video-section-wrapper, .main__price-wrapper {
+  max-width: 1440px;
   width: 100%;
+  padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
 }
@@ -611,7 +639,7 @@
   line-height: 50px;
 }
 
-.main__skills-wrapper .main__skills-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__video-section-wrapper .main__video-section-headline-wrapper {
+.main__skills-wrapper .main__skills-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__video-section-wrapper .main__video-section-headline-wrapper, .main__price-wrapper .main__price-headline-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -664,4 +692,61 @@ body {
 .portfolio-img {
   max-width: 450px;
   max-height: 560px;
+}
+
+.price-card {
+  flex-basis: 100%;
+  max-width: 450px;
+  max-height: 505px;
+  padding: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid #bdae82;
+}
+.price-card__headline {
+  margin-bottom: 18px;
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 56px;
+  color: white;
+}
+.price-card__price {
+  margin-bottom: 18px;
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 48px;
+  color: #bdae82;
+}
+.price-card__description-wrapper {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-card__description-wrapper .price-card__feature-description {
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 36px;
+  color: white;
+}
+.price-card__btn {
+  max-width: 220px;
+  width: 100%;
+  padding: 8px 37px 7px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+  background-color: #bdae82;
+  border: 2px solid #bdae82;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.price-card__btn:hover {
+  color: white;
 }/*# sourceMappingURL=glStyle.css.map */

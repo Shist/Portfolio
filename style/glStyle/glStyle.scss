@@ -48,15 +48,34 @@ body {
 }
 
 .price-card {
-  &__haedline {
+  flex-basis: 100%;
+  max-width: 450px;
+  max-height: 505px;
+  padding: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid $gold-color;
+  &__headline {
+    margin-bottom: 18px;
+    @include default-h(28px, 56px, $white-color);
   }
   &__price {
+    margin-bottom: 18px;
+    @include default-h(24px, 48px, $gold-color);
   }
   &__description-wrapper {
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .price-card__feature-description {
+      @include default-p(18px, 36px);
     }
   }
   &__btn {
+    @include default-btn($bg-dark-color, $gold-color);
   }
 }
 

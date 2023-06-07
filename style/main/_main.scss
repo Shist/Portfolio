@@ -118,13 +118,23 @@
     }
   }
   &__price-wrapper {
+    margin-bottom: 100px;
+    @extend %default-container;
     .main__price-headline-wrapper {
+      margin-bottom: 60px;
+      @extend %default-container-with-side-lines;
       .main__price-headline-line {
+        @include gold-line(279px);
       }
       .main__price-headline-text {
+        @include default-h(40px, 80px, $gold-color);
       }
     }
     .main__price-cards-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 25px;
     }
   }
   &__contact-form-wrapper {
