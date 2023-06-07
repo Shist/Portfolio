@@ -283,6 +283,16 @@
   display: flex;
   justify-content: space-between;
 }
+.header__container .header__logo {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../img/header/camera.svg");
+  transition: 0.3s;
+}
+.header__container .header__logo:hover {
+  transform: scale(1.1);
+  content: url("../../img/header/camera-hover.svg");
+}
 .header__container .header__nav-wrapper {
   display: flex;
 }
@@ -820,12 +830,13 @@
   aspect-ratio: 1/1;
   border: none;
   background-color: transparent;
-  background-image: url(../../img/main/start-video-btn.png);
+  background-image: url(../../img/main/start-video-btn.svg);
   background-size: cover;
   cursor: pointer;
   transition: 0.3s;
 }
 .main__video-section-wrapper .main__video-content-wrapper .main__video-click-btn:hover {
+  background-image: url(../../img/main/start-video-btn-hover.svg);
   transform: scale(1.2);
 }
 .main__video-section-wrapper .main__video-content-wrapper .main__video {
@@ -1342,14 +1353,26 @@ body {
   transition: 0.3s;
 }
 .social-link__instagram {
-  background-image: url(../../img/footer/icon-instagram.svg);
+  background-image: url("../../img/footer/icon-instagram.svg");
+}
+.social-link__instagram:hover {
+  background-image: url("../../img/footer/icon-instagram-hover.svg");
 }
 .social-link__facebook {
-  background-image: url(../../img/footer/icon-facebook.svg);
+  background-image: url("../../img/footer/icon-facebook.svg");
+}
+.social-link__facebook:hover {
+  background-image: url("../../img/footer/icon-facebook-hover.svg");
 }
 .social-link__twitter {
-  background-image: url(../../img/footer/icon-twitter.svg);
+  background-image: url("../../img/footer/icon-twitter.svg");
+}
+.social-link__twitter:hover {
+  background-image: url("../../img/footer/icon-twitter-hover.svg");
 }
 .social-link__pinterest {
-  background-image: url(../../img/footer/icon-pinterest.svg);
+  background-image: url("../../img/footer/icon-pinterest.svg");
+}
+.social-link__pinterest:hover {
+  background-image: url("../../img/footer/icon-pinterest-hover.svg");
 }/*# sourceMappingURL=glStyle.css.map */

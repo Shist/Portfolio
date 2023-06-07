@@ -114,15 +114,27 @@ body {
   height: 32px;
   transition: 0.3s;
   &__instagram {
-    background-image: url(../../img/footer/icon-instagram.svg);
+    background-image: url("../../img/footer/icon-instagram.svg");
+    &:hover {
+      background-image: url("../../img/footer/icon-instagram-hover.svg");
+    }
   }
   &__facebook {
-    background-image: url(../../img/footer/icon-facebook.svg);
+    background-image: url("../../img/footer/icon-facebook.svg");
+    &:hover {
+      background-image: url("../../img/footer/icon-facebook-hover.svg");
+    }
   }
   &__twitter {
-    background-image: url(../../img/footer/icon-twitter.svg);
+    background-image: url("../../img/footer/icon-twitter.svg");
+    &:hover {
+      background-image: url("../../img/footer/icon-twitter-hover.svg");
+    }
   }
   &__pinterest {
-    background-image: url(../../img/footer/icon-pinterest.svg);
+    background-image: url("../../img/footer/icon-pinterest.svg");
+    &:hover {
+      background-image: url("../../img/footer/icon-pinterest-hover.svg");
+    }
   }
 }
