@@ -13,6 +13,7 @@ https://github.com/Shist/Portfolio/assets/40572268/de572aff-3270-4c20-8c8b-37f4e
 - HTML
 - CSS
 - SCSS
+- Javascript
 - flex
 - grid
 - @media queries
