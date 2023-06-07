@@ -78,7 +78,7 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+.main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1400px;
   width: 100%;
   margin-top: 0;
@@ -92,7 +92,7 @@
   line-height: 50px;
 }
 
-.main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+.main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +180,7 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+.main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1400px;
   width: 100%;
   margin-top: 0;
@@ -194,7 +194,7 @@
   line-height: 50px;
 }
 
-.main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+.main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -330,7 +330,7 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+.main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1400px;
   width: 100%;
   margin-top: 0;
@@ -344,7 +344,7 @@
   line-height: 50px;
 }
 
-.main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+.main__video-section-wrapper .main__video-section-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -475,6 +475,48 @@
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
 }
+.main__video-section-wrapper {
+  margin-bottom: 100px;
+}
+.main__video-section-wrapper .main__video-section-headline-wrapper {
+  margin-bottom: 60px;
+}
+.main__video-section-wrapper .main__video-section-headline-wrapper .main__video-section-headline-line {
+  width: 272px;
+  height: 2px;
+  background-color: #bdae82;
+}
+.main__video-section-wrapper .main__video-section-headline-wrapper .main__video-section-headline-text {
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+}
+.main__video-section-wrapper .main__video-content-wrapper {
+  position: relative;
+}
+.main__video-section-wrapper .main__video-content-wrapper .main__video-click-btn {
+  position: absolute;
+  top: 288px;
+  left: 635px;
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  border: none;
+  background-color: transparent;
+  background-image: url(../../img/main/start-video-btn.png);
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main__video-section-wrapper .main__video-content-wrapper .main__video-click-btn:hover {
+  transform: scale(1.2);
+}
+.main__video-section-wrapper .main__video-content-wrapper .main__video {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
 /* font "Merriweather", normal, 400 */
 @font-face {
   font-family: "Merriweather";
@@ -555,7 +597,7 @@
   font-weight: bold;
   font-style: normal;
 }
-.header__container, .main__skills-wrapper, .main__portfolio-content-wrapper {
+.header__container, .main__skills-wrapper, .main__portfolio-content-wrapper, .main__video-section-wrapper {
   max-width: 1400px;
   width: 100%;
   margin-top: 0;
@@ -569,7 +611,7 @@
   line-height: 50px;
 }
 
-.main__skills-wrapper .main__skills-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper {
+.main__skills-wrapper .main__skills-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__video-section-wrapper .main__video-section-headline-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;

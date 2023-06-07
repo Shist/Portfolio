@@ -81,16 +81,39 @@
     }
   }
   &__video-section-wrapper {
+    margin-bottom: 100px;
+    @extend %default-container;
     .main__video-section-headline-wrapper {
+      margin-bottom: 60px;
+      @extend %default-container-with-side-lines;
       .main__video-section-headline-line {
+        @include gold-line(272px);
       }
       .main__video-section-headline-text {
+        @include default-h(40px, 80px, $gold-color);
       }
     }
     .main__video-content-wrapper {
+      position: relative;
       .main__video-click-btn {
+        position: absolute;
+        top: 288px;
+        left: 635px;
+        z-index: 1;
+        width: 130px;
+        height: 130px;
+        border: none;
+        background-color: transparent;
+        background-image: url(../../img/main/start-video-btn.png);
+        background-size: cover;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+          transform: scale(1.2);
+        }
       }
       .main__video {
+        object-fit: fill;
       }
     }
   }
