@@ -3,26 +3,50 @@
 
 .footer {
   padding-block: 50px;
+  @media (max-width: $tablet-l) {
+    padding-block: 28px;
+  }
   &__container {
     @extend %default-container;
     display: flex;
     justify-content: space-between;
+    @media (max-width: $tablet-l) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
     .footer__copyrights-wrapper {
       display: flex;
       justify-content: space-between;
       column-gap: 20px;
+      @media (max-width: $tablet-l) {
+        margin-bottom: 16px;
+      }
       .footer__copyright-sign {
         @include default-p(20px, 50px);
+        @media (max-width: $tablet-l) {
+          line-height: 24px;
+        }
       }
       .footer__copyright-year {
         @include default-p(20px, 50px);
+        @media (max-width: $tablet-l) {
+          line-height: 24px;
+        }
       }
       .footer__github-link {
         @include default-a;
+        @media (max-width: $tablet-l) {
+          line-height: 24px;
+        }
       }
     }
     .footer__portfolio-sign {
       @include default-p(20px, 50px);
+      @media (max-width: $tablet-l) {
+        margin-bottom: 20px;
+        line-height: 24px;
+      }
     }
   }
 }

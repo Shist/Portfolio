@@ -7,6 +7,12 @@
   padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
+  @media (max-width: $tablet-l) {
+    padding-inline: 60px;
+  }
+  @media (max-width: $phone-l) {
+    padding-inline: 10px;
+  }
 }
 
 // Default settings for language signatures
@@ -30,7 +36,7 @@
   max-width: 450px;
   width: 100%;
   padding: 3px 18px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: $font-inter;
   font-size: 20px;
   line-height: 40px;

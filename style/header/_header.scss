@@ -13,8 +13,14 @@
     justify-content: space-between;
     .header__nav-wrapper {
       display: flex;
+      @media (max-width: $tablet-l) {
+        column-gap: 20px;
+      }
       .header__nav {
         padding-inline: 30px;
+        @media (max-width: $tablet-l) {
+          display: none;
+        }
         .header__nav-list {
           display: flex;
           column-gap: 30px;
@@ -39,6 +45,15 @@
         .header__ru-sign {
           @extend %default-language-sign;
           color: $white-color;
+        }
+      }
+      .header__burger-menu-btn {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        display: none;
+        @media (max-width: $tablet-l) {
+          display: inline-block;
         }
       }
     }

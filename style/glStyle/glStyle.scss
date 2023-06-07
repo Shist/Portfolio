@@ -19,7 +19,7 @@ body {
 
 .skill-card {
   max-width: 320px;
-  max-height: 240px;
+  min-height: 240px;
   padding: 0 20px 8px;
   display: flex;
   flex-direction: column;
@@ -35,28 +35,40 @@ body {
   &__headline {
     margin-bottom: 20px;
     @include default-p(20px, 40px);
+    text-align: center;
+    @media (max-width: $tablet-m) {
+      line-height: 24px;
+    }
   }
   &__text {
     @include default-p(18px, 36px);
     text-align: center;
+    @media (max-width: $tablet-l) {
+      line-height: 22px;
+    }
   }
 }
 
 .portfolio-img {
   max-width: 450px;
   max-height: 560px;
+  width: 100%;
+  height: auto;
 }
 
 .price-card {
   flex-basis: 100%;
   max-width: 450px;
-  max-height: 505px;
+  min-height: 505px;
   padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border: 3px solid $gold-color;
+  @media (max-width: $phone-m) {
+    padding: 20px;
+  }
   &__headline {
     margin-bottom: 20px;
     @include default-h(28px, 56px, $white-color);

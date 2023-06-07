@@ -78,12 +78,22 @@
   font-weight: bold;
   font-style: normal;
 }
-.footer__container, .main__price-wrapper, .main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+.footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1440px;
   width: 100%;
   padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+    padding-inline: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+    padding-inline: 10px;
+  }
 }
 
 .header__container .header__nav-wrapper .header__lang-wrapper .header__ru-sign, .header__container .header__nav-wrapper .header__lang-wrapper .header__slash-sign, .header__container .header__nav-wrapper .header__lang-wrapper .header__en-sign {
@@ -105,7 +115,7 @@
   max-width: 450px;
   width: 100%;
   padding: 3px 18px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: "Inter";
   font-size: 20px;
   line-height: 40px;
@@ -205,12 +215,22 @@
   font-weight: bold;
   font-style: normal;
 }
-.footer__container, .main__price-wrapper, .main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+.footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1440px;
   width: 100%;
   padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+    padding-inline: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+    padding-inline: 10px;
+  }
 }
 
 .header__container .header__nav-wrapper .header__lang-wrapper .header__ru-sign, .header__container .header__nav-wrapper .header__lang-wrapper .header__slash-sign, .header__container .header__nav-wrapper .header__lang-wrapper .header__en-sign {
@@ -232,7 +252,7 @@
   max-width: 450px;
   width: 100%;
   padding: 3px 18px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: "Inter";
   font-size: 20px;
   line-height: 40px;
@@ -266,8 +286,19 @@
 .header__container .header__nav-wrapper {
   display: flex;
 }
+@media (max-width: 768px) {
+  .header__container .header__nav-wrapper {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+}
 .header__container .header__nav-wrapper .header__nav {
   padding-inline: 30px;
+}
+@media (max-width: 768px) {
+  .header__container .header__nav-wrapper .header__nav {
+    display: none;
+  }
 }
 .header__container .header__nav-wrapper .header__nav .header__nav-list {
   display: flex;
@@ -299,6 +330,17 @@
 .header__container .header__nav-wrapper .header__lang-wrapper .header__ru-sign {
   color: white;
 }
+.header__container .header__nav-wrapper .header__burger-menu-btn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 768px) {
+  .header__container .header__nav-wrapper .header__burger-menu-btn {
+    display: inline-block;
+  }
+}
 
 /* font "Merriweather", normal, 400 */
 @font-face {
@@ -380,12 +422,22 @@
   font-weight: bold;
   font-style: normal;
 }
-.footer__container, .main__price-wrapper, .main__video-section-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+.footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1440px;
   width: 100%;
   padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+    padding-inline: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__container, .main__price-wrapper, .main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
+    padding-inline: 10px;
+  }
 }
 
 .header__container .header__nav-wrapper .header__lang-wrapper .header__en-sign, .header__container .header__nav-wrapper .header__lang-wrapper .header__slash-sign, .header__container .header__nav-wrapper .header__lang-wrapper .header__ru-sign {
@@ -407,7 +459,7 @@
   max-width: 450px;
   width: 100%;
   padding: 3px 18px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: "Inter";
   font-size: 20px;
   line-height: 40px;
@@ -435,6 +487,24 @@
   background-image: url("../../img/main/woman-with-camera.png");
   background-size: cover;
 }
+@media (max-width: 960px) {
+  .main__portfolio-cover-wrapper {
+    background-position: center;
+  }
+}
+@media (max-width: 768px) {
+  .main__portfolio-cover-wrapper {
+    min-height: 590px;
+    margin-bottom: 80px;
+    padding-left: 7.81%;
+  }
+}
+@media (max-width: 480px) {
+  .main__portfolio-cover-wrapper {
+    margin-bottom: 60px;
+    padding-top: 150px;
+  }
+}
 .main__portfolio-cover-wrapper .main__portfolio-info-wrapper {
   max-width: 500px;
 }
@@ -446,6 +516,12 @@
   line-height: 120px;
   color: white;
 }
+@media (max-width: 768px) {
+  .main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__person-name-headline {
+    font-size: 32px;
+    line-height: 64px;
+  }
+}
 .main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__person-info-text {
   max-width: 470px;
   margin-bottom: 25px;
@@ -453,6 +529,18 @@
   font-size: 20px;
   line-height: 40px;
   color: white;
+}
+@media (max-width: 768px) {
+  .main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__person-info-text {
+    max-width: 390px;
+    margin-bottom: 60px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__person-info-text {
+    max-width: 250px;
+  }
 }
 .main__portfolio-cover-wrapper .main__portfolio-info-wrapper .main__btn-hire-me {
   max-width: 220px;
@@ -474,13 +562,43 @@
 .main__skills-wrapper {
   margin-bottom: 100px;
 }
+@media (max-width: 768px) {
+  .main__skills-wrapper {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .main__skills-wrapper {
+    margin-bottom: 60px;
+  }
+}
 .main__skills-wrapper .main__skills-headline-wrapper {
   margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .main__skills-wrapper .main__skills-headline-wrapper {
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 480px) {
+  .main__skills-wrapper .main__skills-headline-wrapper {
+    margin-bottom: 20px;
+  }
 }
 .main__skills-wrapper .main__skills-headline-wrapper .main__skills-headline-line {
   width: 274px;
   height: 2px;
   background-color: #bdae82;
+}
+@media (max-width: 768px) {
+  .main__skills-wrapper .main__skills-headline-wrapper .main__skills-headline-line {
+    width: 117px;
+  }
+}
+@media (max-width: 480px) {
+  .main__skills-wrapper .main__skills-headline-wrapper .main__skills-headline-line {
+    width: 78px;
+  }
 }
 .main__skills-wrapper .main__skills-headline-wrapper .main__skills-headline-text {
   font-family: "Merriweather";
@@ -489,23 +607,76 @@
   line-height: 80px;
   color: #bdae82;
 }
+@media (max-width: 768px) {
+  .main__skills-wrapper .main__skills-headline-wrapper .main__skills-headline-text {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
 .main__skills-wrapper .main__skills-cards-wrapper {
   display: grid;
+  justify-items: center;
   -moz-column-gap: 40px;
        column-gap: 40px;
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(4, 1fr);
 }
+@media (max-width: 1400px) {
+  .main__skills-wrapper .main__skills-cards-wrapper {
+    row-gap: 36px;
+    -moz-column-gap: 44px;
+         column-gap: 44px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .main__skills-wrapper .main__skills-cards-wrapper {
+    row-gap: 25px;
+    -moz-column-gap: 5px;
+         column-gap: 5px;
+  }
+}
 .main__portfolio-content-wrapper {
   margin-bottom: 100px;
 }
+@media (max-width: 768px) {
+  .main__portfolio-content-wrapper {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .main__portfolio-content-wrapper {
+    margin-bottom: 60px;
+  }
+}
 .main__portfolio-content-wrapper .main__portfolio-headline-wrapper {
   margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .main__portfolio-content-wrapper .main__portfolio-headline-wrapper {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .main__portfolio-content-wrapper .main__portfolio-headline-wrapper {
+    margin-bottom: 30px;
+  }
 }
 .main__portfolio-content-wrapper .main__portfolio-headline-wrapper .main__portfolio-headline-line {
   width: 240px;
   height: 2px;
   background-color: #bdae82;
+}
+@media (max-width: 768px) {
+  .main__portfolio-content-wrapper .main__portfolio-headline-wrapper .main__portfolio-headline-line {
+    width: 90px;
+  }
+}
+@media (max-width: 480px) {
+  .main__portfolio-content-wrapper .main__portfolio-headline-wrapper .main__portfolio-headline-line {
+    width: 60px;
+  }
 }
 .main__portfolio-content-wrapper .main__portfolio-headline-wrapper .main__portfolio-headline-text {
   font-family: "Merriweather";
@@ -514,14 +685,31 @@
   line-height: 80px;
   color: #bdae82;
 }
+@media (max-width: 768px) {
+  .main__portfolio-content-wrapper .main__portfolio-headline-wrapper .main__portfolio-headline-text {
+    font-size: 32px;
+  }
+}
 .main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper {
   margin-bottom: 60px;
   display: grid;
   justify-content: center;
-  -moz-column-gap: 5px;
-       column-gap: 5px;
+  gap: 5px;
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(4, 220px);
+}
+@media (max-width: 960px) {
+  .main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 220px);
+  }
+}
+@media (max-width: 576px) {
+  .main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper {
+    gap: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 220px);
+  }
 }
 .main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper .main__portoflio-content-btn {
   max-width: 220px;
@@ -546,20 +734,67 @@
 }
 .main__portfolio-content-wrapper .main__portfolio-images-wrapper {
   display: grid;
+  justify-items: center;
   gap: 25px;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
 }
+@media (max-width: 960px) {
+  .main__portfolio-content-wrapper .main__portfolio-images-wrapper {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .main__portfolio-content-wrapper .main__portfolio-images-wrapper {
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .main__video-section-wrapper {
-  margin-bottom: 100px;
+  max-width: 1440px;
+  width: 100%;
+  padding-inline: 20px;
+  margin: 0 auto 100px;
+}
+@media (max-width: 768px) {
+  .main__video-section-wrapper {
+    margin-bottom: 80px;
+    padding-inline: 0;
+  }
+}
+@media (max-width: 480px) {
+  .main__video-section-wrapper {
+    margin-bottom: 60px;
+  }
 }
 .main__video-section-wrapper .main__video-section-headline-wrapper {
   margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .main__video-section-wrapper .main__video-section-headline-wrapper {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .main__video-section-wrapper .main__video-section-headline-wrapper {
+    margin-bottom: 30px;
+  }
 }
 .main__video-section-wrapper .main__video-section-headline-wrapper .main__video-section-headline-line {
   width: 272px;
   height: 2px;
   background-color: #bdae82;
+}
+@media (max-width: 768px) {
+  .main__video-section-wrapper .main__video-section-headline-wrapper .main__video-section-headline-line {
+    width: 117px;
+  }
+}
+@media (max-width: 480px) {
+  .main__video-section-wrapper .main__video-section-headline-wrapper .main__video-section-headline-line {
+    width: 78px;
+  }
 }
 .main__video-section-wrapper .main__video-section-headline-wrapper .main__video-section-headline-text {
   font-family: "Merriweather";
@@ -568,16 +803,21 @@
   line-height: 80px;
   color: #bdae82;
 }
+@media (max-width: 768px) {
+  .main__video-section-wrapper .main__video-section-headline-wrapper .main__video-section-headline-text {
+    font-size: 32px;
+  }
+}
 .main__video-section-wrapper .main__video-content-wrapper {
   position: relative;
 }
 .main__video-section-wrapper .main__video-content-wrapper .main__video-click-btn {
   position: absolute;
-  top: 288px;
-  left: 635px;
+  top: 40.85%;
+  left: 45.36%;
   z-index: 1;
-  width: 130px;
-  height: 130px;
+  width: 9.29%;
+  aspect-ratio: 1/1;
   border: none;
   background-color: transparent;
   background-image: url(../../img/main/start-video-btn.png);
@@ -589,19 +829,51 @@
   transform: scale(1.2);
 }
 .main__video-section-wrapper .main__video-content-wrapper .main__video {
+  width: 100%;
+  height: auto;
   -o-object-fit: fill;
      object-fit: fill;
 }
 .main__price-wrapper {
   margin-bottom: 100px;
 }
+@media (max-width: 768px) {
+  .main__price-wrapper {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .main__price-wrapper {
+    margin-bottom: 60px;
+  }
+}
 .main__price-wrapper .main__price-headline-wrapper {
   margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .main__price-wrapper .main__price-headline-wrapper {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .main__price-wrapper .main__price-headline-wrapper {
+    margin-bottom: 30px;
+  }
 }
 .main__price-wrapper .main__price-headline-wrapper .main__price-headline-line {
   width: 279px;
   height: 2px;
   background-color: #bdae82;
+}
+@media (max-width: 768px) {
+  .main__price-wrapper .main__price-headline-wrapper .main__price-headline-line {
+    width: 121px;
+  }
+}
+@media (max-width: 480px) {
+  .main__price-wrapper .main__price-headline-wrapper .main__price-headline-line {
+    width: 81px;
+  }
 }
 .main__price-wrapper .main__price-headline-wrapper .main__price-headline-text {
   font-family: "Merriweather";
@@ -610,23 +882,55 @@
   line-height: 80px;
   color: #bdae82;
 }
+@media (max-width: 768px) {
+  .main__price-wrapper .main__price-headline-wrapper .main__price-headline-text {
+    font-size: 32px;
+  }
+}
 .main__price-wrapper .main__price-cards-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 25px;
 }
+@media (max-width: 768px) {
+  .main__price-wrapper .main__price-cards-wrapper {
+    gap: 50px;
+  }
+}
 .main__contact-form-wrapper {
   min-height: 700px;
   padding-top: 60px;
-  padding-left: 67.36%;
+  padding-left: calc(100% - 470px);
   background-image: url("../../img/main/woman-makes-photos.png");
   background-size: cover;
+}
+@media (max-width: 768px) {
+  .main__contact-form-wrapper {
+    min-height: 600px;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    background-position-x: 45%;
+  }
+}
+@media (max-width: 480px) {
+  .main__contact-form-wrapper {
+    background-position-x: 20%;
+    padding-inline: 10px;
+  }
 }
 .main__contact-form-wrapper .main__contact-form {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+@media (max-width: 768px) {
+  .main__contact-form-wrapper .main__contact-form {
+    max-width: 450px;
+    width: 100%;
+    align-items: center;
+  }
 }
 .main__contact-form-wrapper .main__contact-form .main__contact-form-headline {
   margin-bottom: 40px;
@@ -635,6 +939,12 @@
   font-size: 40px;
   line-height: 80px;
   color: #bdae82;
+}
+@media (max-width: 768px) {
+  .main__contact-form-wrapper .main__contact-form .main__contact-form-headline {
+    font-size: 32px;
+    line-height: 64px;
+  }
 }
 .main__contact-form-wrapper .main__contact-form .main__contact-form-email {
   min-height: 50px;
@@ -747,12 +1057,22 @@
   font-weight: bold;
   font-style: normal;
 }
-.footer__container, .header__container, .main__skills-wrapper, .main__portfolio-content-wrapper, .main__video-section-wrapper, .main__price-wrapper {
+.footer__container, .header__container, .main__skills-wrapper, .main__portfolio-content-wrapper, .main__price-wrapper {
   max-width: 1440px;
   width: 100%;
   padding-inline: 20px;
   margin-top: 0;
   margin-inline: auto;
+}
+@media (max-width: 768px) {
+  .footer__container, .header__container, .main__skills-wrapper, .main__portfolio-content-wrapper, .main__price-wrapper {
+    padding-inline: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .footer__container, .header__container, .main__skills-wrapper, .main__portfolio-content-wrapper, .main__price-wrapper {
+    padding-inline: 10px;
+  }
 }
 
 .header__container .header__nav-wrapper .header__lang-wrapper .header__en-sign, .header__container .header__nav-wrapper .header__lang-wrapper .header__slash-sign, .header__container .header__nav-wrapper .header__lang-wrapper .header__ru-sign {
@@ -774,7 +1094,7 @@
   max-width: 450px;
   width: 100%;
   padding: 3px 18px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: "Inter";
   font-size: 20px;
   line-height: 40px;
@@ -797,9 +1117,21 @@
 .footer {
   padding-block: 50px;
 }
+@media (max-width: 768px) {
+  .footer {
+    padding-block: 28px;
+  }
+}
 .footer__container {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 .footer__container .footer__copyrights-wrapper {
   display: flex;
@@ -807,17 +1139,32 @@
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
+@media (max-width: 768px) {
+  .footer__container .footer__copyrights-wrapper {
+    margin-bottom: 16px;
+  }
+}
 .footer__container .footer__copyrights-wrapper .footer__copyright-sign {
   font-family: "Inter";
   font-size: 20px;
   line-height: 50px;
   color: white;
 }
+@media (max-width: 768px) {
+  .footer__container .footer__copyrights-wrapper .footer__copyright-sign {
+    line-height: 24px;
+  }
+}
 .footer__container .footer__copyrights-wrapper .footer__copyright-year {
   font-family: "Inter";
   font-size: 20px;
   line-height: 50px;
   color: white;
+}
+@media (max-width: 768px) {
+  .footer__container .footer__copyrights-wrapper .footer__copyright-year {
+    line-height: 24px;
+  }
 }
 .footer__container .footer__copyrights-wrapper .footer__github-link {
   font-family: "Inter";
@@ -830,11 +1177,22 @@
 .footer__container .footer__copyrights-wrapper .footer__github-link:hover {
   color: #bdae82;
 }
+@media (max-width: 768px) {
+  .footer__container .footer__copyrights-wrapper .footer__github-link {
+    line-height: 24px;
+  }
+}
 .footer__container .footer__portfolio-sign {
   font-family: "Inter";
   font-size: 20px;
   line-height: 50px;
   color: white;
+}
+@media (max-width: 768px) {
+  .footer__container .footer__portfolio-sign {
+    margin-bottom: 20px;
+    line-height: 24px;
+  }
 }
 
 body {
@@ -850,7 +1208,7 @@ body {
 
 .skill-card {
   max-width: 320px;
-  max-height: 240px;
+  min-height: 240px;
   padding: 0 20px 8px;
   display: flex;
   flex-direction: column;
@@ -870,6 +1228,12 @@ body {
   font-size: 20px;
   line-height: 40px;
   color: white;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .skill-card__headline {
+    line-height: 24px;
+  }
 }
 .skill-card__text {
   font-family: "Inter";
@@ -878,22 +1242,34 @@ body {
   color: white;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .skill-card__text {
+    line-height: 22px;
+  }
+}
 
 .portfolio-img {
   max-width: 450px;
   max-height: 560px;
+  width: 100%;
+  height: auto;
 }
 
 .price-card {
   flex-basis: 100%;
   max-width: 450px;
-  max-height: 505px;
+  min-height: 505px;
   padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border: 3px solid #bdae82;
+}
+@media (max-width: 360px) {
+  .price-card {
+    padding: 20px;
+  }
 }
 .price-card__headline {
   margin-bottom: 20px;
