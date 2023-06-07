@@ -78,7 +78,7 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__skills-wrapper, .header__container {
+.main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1400px;
   width: 100%;
   margin-top: 0;
@@ -90,6 +90,14 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 50px;
+}
+
+.main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 
 /* font "Merriweather", normal, 400 */
@@ -172,7 +180,7 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__skills-wrapper, .header__container {
+.main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1400px;
   width: 100%;
   margin-top: 0;
@@ -184,6 +192,14 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 50px;
+}
+
+.main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 
 .header {
@@ -314,7 +330,7 @@
   font-weight: bold;
   font-style: normal;
 }
-.main__skills-wrapper, .header__container {
+.main__portfolio-content-wrapper, .main__skills-wrapper, .header__container {
   max-width: 1400px;
   width: 100%;
   margin-top: 0;
@@ -326,6 +342,14 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 50px;
+}
+
+.main__portfolio-content-wrapper .main__portfolio-headline-wrapper, .main__skills-wrapper .main__skills-headline-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 
 .main__portfolio-cover-wrapper {
@@ -377,11 +401,6 @@
 }
 .main__skills-wrapper .main__skills-headline-wrapper {
   margin-bottom: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
 }
 .main__skills-wrapper .main__skills-headline-wrapper .main__skills-headline-line {
   width: 274px;
@@ -396,9 +415,65 @@
   color: #bdae82;
 }
 .main__skills-wrapper .main__skills-cards-wrapper {
-  display: flex;
+  display: grid;
   -moz-column-gap: 40px;
        column-gap: 40px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+.main__portfolio-content-wrapper {
+  margin-bottom: 100px;
+}
+.main__portfolio-content-wrapper .main__portfolio-headline-wrapper {
+  margin-bottom: 60px;
+}
+.main__portfolio-content-wrapper .main__portfolio-headline-wrapper .main__portfolio-headline-line {
+  width: 240px;
+  height: 2px;
+  background-color: #bdae82;
+}
+.main__portfolio-content-wrapper .main__portfolio-headline-wrapper .main__portfolio-headline-text {
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 80px;
+  color: #bdae82;
+}
+.main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper {
+  margin-bottom: 60px;
+  display: grid;
+  justify-content: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 220px);
+}
+.main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper .main__portoflio-content-btn {
+  max-width: 220px;
+  width: 100%;
+  padding: 8px 40px 7px;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #bdae82;
+  background-color: black;
+  border: 2px solid #bdae82;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper .main__portoflio-content-btn:hover {
+  color: white;
+}
+.main__portfolio-content-wrapper .main__portfolio-content-btns-wrapper .main__portoflio-content-btn_active {
+  color: black;
+  background-color: #bdae82;
+}
+.main__portfolio-content-wrapper .main__portfolio-images-wrapper {
+  display: grid;
+  gap: 25px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 /* font "Merriweather", normal, 400 */
 @font-face {
@@ -480,7 +555,7 @@
   font-weight: bold;
   font-style: normal;
 }
-.header__container, .main__skills-wrapper {
+.header__container, .main__skills-wrapper, .main__portfolio-content-wrapper {
   max-width: 1400px;
   width: 100%;
   margin-top: 0;
@@ -492,6 +567,14 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 50px;
+}
+
+.main__skills-wrapper .main__skills-headline-wrapper, .main__portfolio-content-wrapper .main__portfolio-headline-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 
 body {
@@ -534,4 +617,9 @@ body {
   line-height: 36px;
   color: white;
   text-align: center;
+}
+
+.portfolio-img {
+  max-width: 450px;
+  max-height: 560px;
 }/*# sourceMappingURL=glStyle.css.map */

@@ -16,6 +16,21 @@
   line-height: 50px;
 }
 
+// Default settings for headline containers that have two side lines with headline
+%default-container-with-side-lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+// Default settings for gold lines that are around headlines; $w - the width of each line
+@mixin gold-line($w) {
+  width: $w;
+  height: 2px;
+  background-color: $gold-color;
+}
+
 // Default settings of headlines; $f-s - size; $l-h - line height; $c - color
 @mixin default-h($f-s, $l-h, $c) {
   font-family: $font-merriweather;

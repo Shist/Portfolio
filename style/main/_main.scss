@@ -30,32 +30,54 @@
     @extend %default-container;
     .main__skills-headline-wrapper {
       margin-bottom: 60px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 20px;
+      @extend %default-container-with-side-lines;
       .main__skills-headline-line {
-        width: 274px;
-        height: 2px;
-        background-color: $gold-color;
+        @include gold-line(274px);
       }
       .main__skills-headline-text {
         @include default-h(40px, 80px, $gold-color);
       }
     }
     .main__skills-cards-wrapper {
-      display: flex;
+      display: grid;
       column-gap: 40px;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(4, 1fr);
     }
   }
   &__portfolio-content-wrapper {
+    margin-bottom: 100px;
+    @extend %default-container;
     .main__portfolio-headline-wrapper {
+      margin-bottom: 60px;
+      @extend %default-container-with-side-lines;
       .main__portfolio-headline-line {
+        @include gold-line(240px);
       }
       .main__portfolio-headline-text {
+        @include default-h(40px, 80px, $gold-color);
+      }
+    }
+    .main__portfolio-content-btns-wrapper {
+      margin-bottom: 60px;
+      display: grid;
+      justify-content: center;
+      column-gap: 5px;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(4, 220px);
+      .main__portoflio-content-btn {
+        @include default-btn($gold-color, $bg-dark-color);
+        &_active {
+          color: $bg-dark-color;
+          background-color: $gold-color;
+        }
       }
     }
     .main__portfolio-images-wrapper {
+      display: grid;
+      gap: 25px;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
   }
   &__video-section-wrapper {
