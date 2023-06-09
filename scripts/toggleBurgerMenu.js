@@ -19,6 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
       burgerBtn.classList.add("header__burger-menu-btn_close");
     }
   });
+  // Event while clicking on dark space from the left of the menu
+  burgerMenu.addEventListener("click", (event) => {
+    if (event.target === burgerMenu) {
+      hideMenu();
+    }
+  });
   const tabletL = 768;
   window.addEventListener("resize", () => {
     if (this.outerWidth > tabletL) {
