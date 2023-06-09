@@ -347,21 +347,9 @@
 .header__container .header__nav-wrapper .header__lang-wrapper .header__ru-sign {
   color: white;
 }
-.header__container .header__nav-wrapper .header__burger-menu-btn {
-  z-index: 3;
+.header__container .header__nav-wrapper .header__space-for-burger-menu-btn {
   width: 50px;
   height: 50px;
-  border: none;
-  background-color: transparent;
-  background-size: cover;
-  cursor: pointer;
-  transition: 0.3s;
-  display: none;
-}
-@media (max-width: 768px) {
-  .header__container .header__nav-wrapper .header__burger-menu-btn {
-    display: inline-block;
-  }
 }
 
 /* font "Merriweather", normal, 400 */
@@ -1242,18 +1230,42 @@ body {
   display: flex !important;
 }
 
-.burger-btn-open {
+.header__burger-menu-btn {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+  display: none;
+}
+@media (max-width: 768px) {
+  .header__burger-menu-btn {
+    display: inline-block;
+  }
+}
+@media (max-width: 480px) {
+  .header__burger-menu-btn {
+    right: 14px;
+  }
+}
+.header__burger-menu-btn_open {
   background-image: url(../../img/header/burger-menu.svg);
 }
-.burger-btn-open:active {
+.header__burger-menu-btn_open:active {
   background-image: url(../../img/header/burger-menu-active.svg);
   transform: scale(1.1);
 }
-
-.burger-btn-close {
+.header__burger-menu-btn_close {
+  position: fixed;
   background-image: url(../../img/header/close-btn.svg);
 }
-.burger-btn-close:active {
+.header__burger-menu-btn_close:active {
   background-image: url(../../img/header/close-btn-active.svg);
   transform: scale(1.1);
 }

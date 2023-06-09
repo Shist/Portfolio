@@ -32,21 +32,42 @@ body {
   display: flex !important;
 }
 
-// Class that is used for burger menu button when this menu is hidden
-.burger-btn-open {
-  background-image: url(../../img/header/burger-menu.svg);
-  &:active {
-    background-image: url(../../img/header/burger-menu-active.svg);
-    transform: scale(1.1);
+// Burger menu button
+.header__burger-menu-btn {
+  position: absolute;
+  top: 20px;
+  right: 64px;
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  background-size: cover;
+  cursor: pointer;
+  transition: 0.3s;
+  display: none;
+  @media (max-width: $tablet-l) {
+    display: inline-block;
   }
-}
-
-// Class that is used for burger menu button when this menu is on the screen
-.burger-btn-close {
-  background-image: url(../../img/header/close-btn.svg);
-  &:active {
-    background-image: url(../../img/header/close-btn-active.svg);
-    transform: scale(1.1);
+  @media (max-width: $phone-l) {
+    right: 14px;
+  }
+  // Class that is used for burger menu button when this menu is hidden
+  &_open {
+    background-image: url(../../img/header/burger-menu.svg);
+    &:active {
+      background-image: url(../../img/header/burger-menu-active.svg);
+      transform: scale(1.1);
+    }
+  }
+  // Class that is used for burger menu button when this menu is on the screen
+  &_close {
+    position: fixed;
+    background-image: url(../../img/header/close-btn.svg);
+    &:active {
+      background-image: url(../../img/header/close-btn-active.svg);
+      transform: scale(1.1);
+    }
   }
 }
 

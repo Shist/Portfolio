@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const hideMenu = () => {
     burgerMenu.classList.remove("appeared-flex");
     burgerMenu.classList.add("hidden-element");
-    burgerBtn.classList.remove("burger-btn-close");
-    burgerBtn.classList.add("burger-btn-open");
+    burgerBtn.classList.remove("header__burger-menu-btn_close");
+    burgerBtn.classList.add("header__burger-menu-btn_open");
   };
   burgerBtn.addEventListener("click", () => {
     if (window.getComputedStyle(burgerMenu, null).display === "flex") {
@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       burgerMenu.classList.remove("hidden-element");
       burgerMenu.classList.add("appeared-flex");
-      burgerBtn.classList.remove("burger-btn-open");
-      burgerBtn.classList.add("burger-btn-close");
+      burgerBtn.classList.remove("header__burger-menu-btn_open");
+      burgerBtn.classList.add("header__burger-menu-btn_close");
     }
   });
   const tabletL = 768;
