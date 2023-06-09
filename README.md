@@ -5,7 +5,7 @@
 ## Video demo:
 
 
-https://github.com/Shist/Portfolio/assets/40572268/de572aff-3270-4c20-8c8b-37f4e6763ce8
+https://github.com/Shist/Portfolio/assets/40572268/f7c14a54-6f1b-4be4-8b50-a2375549fd12
 
 
 ---
